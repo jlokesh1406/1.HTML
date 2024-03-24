@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./submit.gif">
+    <!-- <base href="https://www.youtube.com/"> -->
+</head>
+<body>
+
+    <!--
+        INTRO TO HTML
+            .HTML is std for HyperText Markup Language
+            .HyperText means 'text within text' is known as HyperText
+            .Markup Language 'markup' the document with a tag that tell web browser how to structure the document to display 
+            .'Tim Berners-Lee' a physicist at the CERN research institute in Switzerland invented HTML in 1991. This first version consisted of 18 HTML tages. Now, there are currently about 140 HTML tags, although not all of them are supported by modern browsers. 
+            .HTML is not a programming language
+            .HTML is not a case sensitive
+            .HTML is a makeup language that web developers use to structure and describe the content of webpages.
+            .HTML is consists of different type of elements like para,link,img,video..etc
+            .Name the file "index.htm" notepad file name. 
+            .HTML vesion:
+               ->HTML 1.0 is released 1991
+               ->HTML 2.0 is released 1995
+               ->HTML 3.0 is released 1997
+               ->HTML 4.0 is released 1999
+               ->HTML 5.0 is released 2014
+            EX:
+            <!DOCTYPE html>      ----} document type declaration
+            <html>               ----} starting page of html
+                <head>   
+                    ...          ----} head continues meta information 
+                </head>
+                <body>
+                    ...          ----} contect can see on web page
+                </body>
+            </html>
+            The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+            The <html> element is the root element of an HTML page
+            The <head> element contains meta information about the HTML page
+            The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+            The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+            The <h1> element defines a large heading
+            The <p> element defines a paragraph
+
+            A URL can be composed of words (e.g. w3schools.com), or an Internet Protocol (IP) address (e.g. 192.68.20.50).
+            URL - Uniform Resource Locator
+            http	HyperText Transfer Protocol->Common web pages.Not encrypted
+            https   Secure HyperText Transfer Protocol->Secure web pages. Encrypted
+            ftp	    File Transfer Protocol -> Downloading or uploading files
+
+            404 Not Found ->The requested page could not be found but may be available again in the future
+
+            502 Bad Gateway	The server was acting as a gateway or proxy and received an invalid response from the upstream server
+            503 Service Unavailable	The server is currently unavailable (overloaded or down)
+            504 Gateway Timeout	The server was acting as a gateway or proxy and did not receive a timely response from the upstream server
+
+
+
+    -->
+
+
+
+
+
+
+
+    
+    <!--tags-->
+
+    <!--This is a comment. Comments are not displayed in the browser-->
+
+    <!-- 
+        <!DOCTYPE html> (document type definition):
+        .It is used to inform the web browers about the version of HTML
+    -->
+
+    
+    <p>
+        a=>(anchor tag):                <br>
+            <a href="https://www.google.com/">GOOGLE</a>  <br>
+            .a tag is defines a hyperlink,which is used to link from one page to anthor page  <br>
+            .href is hypertext reference the attribute indicates the destination of the hyperlink <br>
+            
+            example:  <br>
+            <a href="https://www.google.com/" target="_self" title="hiiiiiiiiiiiii">open same window</a>             <br>
+            <a href="https://www.google.com/" target="_blank">open new window</a>             <br>
+            <a href="./imagesandmp4/image2.jpeg" download>download img</a>                    <br>
+            <a href="./imagesandmp4/image2.jpeg" type="img">specifing what type of a link</a>                 <br>
+            <a href="mailto:jlokesh1406@gmail.com" type="mail" target="_blank">mail to</a>    <br>
+            <a href="https://www.w3schools.com" hreflang="en">W3Schools specifies the language</a>
+    </p>
+    <hr width="90%">
+
+    <p>
+        abbr=>(abbreviation):                          <br>
+            <abbr title="TED TALKS"> TT</abbr>
+            .abbreviation of word                       <br>
+            .title attribute to show the description for the abbreviation/acronym when you mouse over the element.
+    </p>
+    <hr width="90%">
+
+    <p>
+        address=>(address):
+                <address>
+                    Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                    Visit us at:<br>
+                    Example.com<br>
+                    Box 564, Disneyland<br>
+                    USA
+                </address>
+                .The address tag defines the contact information for the author/owner of a document 
+    </p>
+    <hr width="90%">
+
+    <p>
+        article=>(article):
+            <article>
+                <h2>Google Chrome</h2>
+                <p>Google Chrome is a web browser developed by Google,</p>
+            </article>
+            .The article tag specifies independent, self-contained content.
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        aside=>(aside):
+            <aside>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit </p>
+            </aside>
+            .The aside tag defines some content aside from the content it is placed in.
+    </p>
+    <hr width="90%">
+
+    <p>
+        audio=>(audio): <br>
+            <audio controls >
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg"> <br>
+                Your browser does not support the audio element. 
+            </audio>
+            .The audio tag is used to embed sound content in a document, such as music or other audio streams. <br>
+            .The audio tag contains one or more source tags with different audio sources. <br>
+
+            Attributes:                           <br>
+            1.autoplay-Specifies that the audio will start playing as soon as it is ready <br>
+            2.controls-Specifies that audio controls should be displayed (such as a play/pause button etc) <br>
+            3.loop-Specifies that the audio will start over again, every time it is finished <br>
+            4.muted-Specifies that the audio output should be muted <br>
+            5.src-Specifies the path to the audio <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        b=>(bold):               <br>
+            <b>TOO LATE</b>       <br>
+            .Make some text into bold
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        base=>(base url):
+            <a href="watch?v=pN_f4U_8-mo">VCC</a>
+            .The base tag specifies the base URL and/or target for all relative URLs in a document.  <br>
+            .base place at top of the head tag eg.i have choose the youtube as a base link and (a) tag as continues sub channel of within youtube. <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        bdi=>(bi-directional isolation):
+        <ul>
+            <li><bdi>hrefs</bdi></li>
+            <li><bdi>jdoe</bdi></li>
+            <li><bdi>إيان</bdi></li>
+        </ul>
+        .BDI stands for Bi-Directional Isolation.             <br>
+        .The bdi tag isolates a part of text that might be formatted in a different direction from other text outside it. <br>
+        .Isolate the usernames from the surrounding text-direction settings  <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        bdo=>(Bi-Directional Override):              <br>        
+           <bdo dir="rtl"> This text will go right-to-left</bdo>         <br>  
+           <bdo dir="ltr"> This text will go right-to-left.</bdo>         <br>
+           .The tag is used to override the current text direction
+    </p>
+    <hr width="90%">
+
+    <p>
+        blockquote=>(blockquote):          <br>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                For 50 years, WWF has been protecting the future of nature.
+            </blockquote> <br>
+            .The blockquote tag specifies a section that is quoted from another source.      <br>
+            .cite-Specifies the source of the quotation            <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        body=>(body):
+            .The body tag defines the document's body.
+            .The body element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.    
+             Note: There can only be one <body> element in an HTML document.
+    </p>
+    <hr width="90%">
+
+    <p>
+        br=>break:     <br>
+            .The br tag inserts a single line break.
+    </p>
+    <hr width="90%">
+
+    <p>
+        button=>(button):      <br>
+            <button type="button"><p style="width: 100px;">Too Late</p></button>
+            <button type="button" disabled><p style="width: 100px;">Too Late</p></button>
+    
+
+            
+    </p>
+    <hr width="90%">
+
+    <p>
+        caption=>(caption):
+            <table>
+                <caption>Monthly savings</caption>
+                <tr>
+                <th>Month</th>
+                <th>Savings</th>
+                </tr>
+                <tr>
+                <td>January</td>
+                <td>$100</td>
+                </tr>
+            </table>
+            .The caption tag defines a table caption.
+    </p>
+    <hr width="90%">
+
+    <p>
+        center=>(center): 
+            <center>Too Late Product of TED TALKS</center>
+            .The center tag was used in HTML4 to center-align text.
+    </p>
+    <hr width="90%">
+
+    <p>
+        cite=>(citation):   <br>
+            <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+            .The cite tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.). <br>
+            Note: A person's name is not the title of a work. <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        code=>(code):
+            <p>The HTML <code>import java.util.Scanner;</code> tag code.</p>
+            .The code tag is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.
+    </p>
+    <hr width="90%">
+
+    <p>
+        col=>(table column):
+            <table>
+                <colgroup>
+                    <col span="1" style="background-color:red">
+                    <col style="background-color:yellow">
+                    <col span="3" style="background-color:red">
+                </colgroup>
+                <tr>
+                <th>ISBN</th>
+                <th>Title</th>
+                <th>Price</th>
+                </tr>
+                <tr>
+                <td>3476896</td>
+                <td>My first HTML</td>
+                <td>$53</td>
+                </tr>
+                <tr>
+                <td>5869207</td>
+                <td>My first CSS</td>
+                <td>$49</td>
+                </tr>
+            </table>
+            .The colgroup tag specifies a group of one or more columns in a table for formatting.
+            .The col tag specifies column properties for each column within a colgroup element.
+            .The col tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.    
+    </p>
+    <hr width="90%">
+
+    <p>
+        data=>(data):
+            <ul>
+                <li><data value="21053">Cherry Tomato</data></li>
+                <li><data value="21054">Beef Tomato</data></li>
+                <li><data value="21055">Snack Tomato</data></li>
+            </ul>
+            .The data tag is used to add a machine-readable translation of a given content.
+    </p>
+    <hr width="90%">
+
+    <p>
+        datalist=>(datalist)
+            <label for="browser">Choose your browser from the list:</label> <br>
+            <input list="browsers" id="browser"> <br>
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            <input type="submit">           <br>
+            .The datalist tag specifies a list of pre-defined options for an input element.               <br>
+            .The datalist tag is used to provide an "autocomplete" feature for input elements. Users will see a drop-down list of pre-defined options as they input data.         <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        dd=>(define description):                           <br>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+            </dl>                                              <br>
+            .The dd tag is used in conjunction with dl (defines a description list) and dt (defines terms/names).                <br>
+            . Inside a dd tag you can put paragraphs, line breaks, images, links, lists, etc.                                    <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        del=>(deleted text):                               <br>
+             <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>                               <br>
+             .The delt ag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text.          <br>
+             .The ins tag defines a text that has been inserted into a document. Browsers will usually underline inserted text.              <br>
+             <del datetime="2024-02-23T20:4:01Z">The datetime attribute specifies the date and time when the text was deleted</del>
+    </p> 
+    <hr width="90%">
+
+
+
+    <p>
+        details=>(additional details):
+            <details>
+                <summary>TOO LATE</summary>
+                <p> TOO LATE create by the TED TALKS product that use to upload your rent property like home,apart and complex</p>
+            </details>
+            .The details tag specifies additional details that the user can open and close on demand.                 <br>
+            .The details tag is often used to create an interactive widget that the user can open and close. By default, the widget is closed. When open, it expands, and displays the content within.
+            .The summary tag defines a visible heading for the details element. The heading can be clicked to view/hide the details.
+    </p>
+    <hr width="90%">
+
+    <p>
+        dfn=>(definition):                            <br>
+           <dfn>HTML</dfn> is the standard markup language for creating web pages.                   <br>
+           .The dfn tag stands for the "definition element", and it specifies a term that is going to be defined within the content. <br>
+           .The nearest parent of the dfn tag must also contain the definition/explanation for the term.                 <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        dialog=>(dialog box):                  <br>
+            <!-- <dialog open>This is an open dialog window</dialog> -->
+            .The dialog tag defines a dialog box or subwindow.
+    </p>
+    <hr width="90%">
+
+    <p>
+        div=>(division):
+            <div>Too Late..</div>
+            <div>Ted Talks</div>
+            <div>Too Late product of Ted Talks</div>
+            .The div tag defines a division or a section in an HTML document.
+            .The div tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+    </p>
+    <hr width="90%">
+
+    <p>
+        em=>(emphasized):
+         <p>You <em>have</em> to hurry up!</p>
+         .The  em tag is used to define emphasized text. The content inside is typically displayed in italic.
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        embed=>(embed):
+          <p><embed type="text/html" src="./html.html"  width="500" height="200"></p>
+          .The embed tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application.
+           <h3>Suggestion:</h3>
+          .To display a picture, it is better to use the img tag.          <br>
+          .To display HTML, it is better to use the iframe tag.             <br>
+          .To display video or audio, it is better to use the video and audio tags.         <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        fieldset=>(form field grouping):
+            <form>
+                <fieldset>
+                    <legend>Too Late</legend>
+                    <div>Too late is product of ted talks</div>
+                    <div>ted talks ceo is lokeshjayaseelan</div>
+                </fieldset>
+            </form>
+            .the fieldset tag is used to group related elements in a form.
+            .The legend tag is used to define a caption for the fieldset element.
+    </p>
+    <hr width="90%">
+
+    <p>
+        figcaption=>(figcaption):
+            <figure>
+                <img src="./imagesandmp4/IMG_7759.JPG" alt="Trulli" style="height:200px; width: 200px;">
+                <figcaption style="font-size: 12px;">LokeshJayaseelan CEO of TED TALKS</figcaption>
+            </figure>
+            .The figcaption tag defines a caption for a figure element.
+            .The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+    </p>
+    <hr width="90%"> 
+
+    <p>
+        footer=>(footer):
+            <footer>
+                <div>Author:----</div>
+                <div><a href="mailto:jlokesh1406@gmail.com">hege@example.com</a></div>
+            </footer>
+            .The footer tag defines a footer for a document or section.
+    </p>
+    <hr width="90%"> 
+
+    <p>
+        form=>(form):              <br>
+            <form>
+                <input type="text">
+                <button>SUBMIT</button>
+            </form>
+            .The form tag is used to create an HTML form for user input.
+            .the using form allgiment are good
+    </p>
+    <hr width="90%"> 
+    
+    <p>
+        iframe=>(iframe):
+            <iframe src="https://www.skillrack.com/faces/candidate/codeprogram.xhtml" width="400" height="200">skillrack</iframe>
+            <br><br><br><br><br>
+            <embed src="https://www.skillrack.com/faces/candidate/codeprogram.xhtml" width="400" height="200">skillrack</embed>
+            <br><br><br><br><br>
+            .The iframe tag was used in HTML 4 to define one particular window (frame) within a frame
+    </p>
+
+    <hr width="90%"> 
+
+    <p>
+        Heading=>(Heading):
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+        .The h1 to h6 tags are used to define HTML headings.              <br>
+        .h1 defines the most important heading. h6 defines the least important heading.         <br>
+    </p> 
+    <hr width="90%"> 
+
+    <p>
+        head=>(document head):
+            .The head element is a container for metadata (data about data) and is placed between the html tag and the body tag.
+            .Metadata is data about the HTML document. Metadata is not displayed.
+            .Metadata typically define the document title, character set, styles, scripts, and other meta information.
+    </p>
+    <hr width="90%"> 
+
+    <p>
+        header=>(header):
+            <article>
+                <header>
+                <h3>A heading here</h3>
+                <p>Posted by John Doe</p>
+                <p>Some additional information here</p>
+                </header>
+                <p>Lorem Ipsum dolor set amet....</p>
+            </article>
+            .The header element represents a container for introductory content or a set of navigational links.
+    </p>
+    <hr width="90%"> 
+
+    <p>
+        ht=>horizontal rule:-                                  <br>
+            <!-- <hr>  -->
+            The hr element is most often displayed as a horizontal rule
+            that is used to separate content (or define a change) in an HTML page.
+    </p>
+    <hr width="90%"> 
+
+    <p>
+        html=>html: 
+        <p>
+            The html tag represents the root of an HTML document.              <br>
+            The html tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).              <br>
+            Note: You should always include the lang attribute inside the html tag, to declare the language of the Web page.
+            This is meant to assist search engines and browsers. <br>
+        </p>
+    </p>
+    <hr width="90%"> 
+
+    <p>
+        i=>italic:
+        <p>
+            The <i>RMS Titanic</i>, a luxury steamship.
+        </p>
+    </p>
+    <hr width="90%">
+
+
+    <div>
+        iframe=>Inline frame:                                      <br>
+        <iframe src="https://www.skillrack.com/faces/candidate/codeprogram.xhtml" width="400" height="200" title="online coding platform"></iframe><br>skillrack</iframe>           <br><br><br><br><br><br><br><br><br><br>
+        <iframe src="https://www.skillrack.com/faces/candidate/codeprogram.xhtml" title="online coding platform" allowfullscreen></iframe><br>skillrack</iframe>
+    </div>
+    <hr width="90%">
+
+    <p>
+        img=>image:              <br>
+            <img src="/basics/IMG_7758.JPG" alt="hostel" width="500" height="500">                 <br>
+            .The img tag is used to embed an image in an HTML page.             <br>
+            .Images are not technically inserted into a web page; images are linked to web pages.        <br>
+            .The img tag creates a holding space for the referenced image.          <br>
+                 The img tag has two required attributes:                 <br> 
+                      src - Specifies the path to the image                     <br>
+                      alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed           <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        input=>input field:
+            <form>
+                <input type="button">             <br>
+                <input type="checkbox">           <br>
+                <input type="color">           <br>
+                <input type="date">              <br>
+                <input type="datetime-local">      <br>
+                <input type="email">                <br>
+                <input type="file">             <br>
+                <input type="hidden">          <br>
+                <input type="image">           <br>
+                <input type="month">             <br>
+                <input type="number">             <br> 
+                <input type="password">          <br>
+                <input type="radio">               <br>
+                <input type="range">               <br>
+                <input type="reset">               <br>
+                <input type="search">            <br>
+                <input type="submit">            <br>
+                <input type="tel">             <br>
+                <input type="text">         <br>
+                <input type="time">         <br>
+                <input type="url">         <br>
+                <input type="week">           <br>
+            </form>
+            <br>
+            .The input tag specifies an input field where the user can enter data. <br>
+            .The input element is the most important form element.  <br>
+
+            Attribute&Value:          <br>
+            The accept attribute specifies a filter for what file types the user can pick from the file input dialog box. <br>
+                1.<input type="file" id="img" name="img" accept="image/*">                  <br>
+                2.<input type="file" id="img" name="img" accept="audio/*">                  <br>
+                3.<input type="file" id="img" name="img" accept="video/*">                    <br>
+                4.<input type="file" id="file" name="file" multiple> <br>
+            
+            The checked attribute is a boolean attribute:              <br>
+                <input type="checkbox" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" name="vehicle2" value="Car" checked>
+                <label for="vehicle2"> I have a car</label><br>
+
+            The disabled attribute is a boolean attribute:              <br>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" disabled><br>
+            
+            The max and min attributes works with the following input types: number, range, date, datetime-local, month, time and week. <br>
+                <input type="date" id="datemax" name="datemax" max="1979-12-31"><br>
+                <input type="date" id="datemin" name="datemin" min="2000-01-02"><br>
+                <input type="text" id="username" name="username" maxlength="10"><br>
+                <input type="text" id="username" name="username" minlength="5"> <br>
+            
+            The pattern attribute specifies a regular expression that the input element's value is checked against on form submission.  <br>
+                <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br>
+            
+            The placeholder attribute specifies a short hint that describes the expected value of an input field          <br>
+                <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+            
+            The popovertarget attribute you can refer to the popover element with the specified id, and toggle between showing and hiding   <br>
+                <h1 popover id="myheader">TED TALKS</h1>                
+                <input type="button" popovertarget="myheader" value="Click me!">          <br>
+            
+            The readonly attribute is a boolean attribute.A read-only input field cannot be modified:          <br>
+                <input type="text" id="country" name="country" value="Norway" readonly><br><br>
+        
+            The required attribute is a boolean attribute.When present, it specifies that an input field must be filled out before submitting the form.  <br>
+               <input type="text" id="username" name="username" required>  <br>
+            
+            The size attribute specifies the visible width, in characters, of an input element.  <br>
+               <input type="text" id="fname" name="fname" size="50"> <br>
+
+            The src attribute specifies the URL of the image to use as a submit button.    <br>
+               <input type="image" src="./submit.gif" alt="Submit" width="48" height="48">   <br>
+            
+            The step attribute specifies the interval between legal numbers in an input element.  <br>
+               <input type="number" id="points" name="points" step="3">          <br>
+
+               <input type="text" id="country" name="country" value="Norway" readonly><br><br>
+               
+    </p>    
+    <hr width="90%">
+
+    <p>
+        ins=>inserted text:  <br>
+            <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>  
+            .The ins tag defines a text that has been inserted into a document.   <br>
+            .Browsers will usually underline inserted text.              <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        kbd=>keyboard input:                        <br>
+            Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).      <br>
+            .The kbd tag is used to define keyboard input.                 <br>
+            .The content inside is displayed in the browser's default monospace font.       <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        label=>form control label:                   <br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            .tag to define a label for several elements, such as radio buttons, checkboxes, and text fields. 
+    </p>
+    <hr width="90%">
+
+    <p>
+        legend=>descriptive legend:
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+        </fieldset>
+    </p>
+    <hr width="90%">
+
+    <p>
+        li=>list
+            <ol start="5">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+            
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+            .The li tag defines a list item.                                <br>
+            .The li tag is used inside ordered lists ol, unordered lists ul <br>
+            .In ul the list items will usually be displayed with bullet points. <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        link=>link external source:                   <br>
+            <!-- <head>
+                <link rel="stylesheet" href="styles.css">
+            </head> --> 
+            .The link tag defines the relationship between the current document and an external resource. <br>
+
+    </p>
+    <hr width="90%">
+
+    <p>
+        main:
+            <main>
+                <article>
+                <h5>Google Chrome</h5>
+                <p>Google Chrome is a web browser developed by Google</p>
+                </article>
+                <article>
+                    <h5>Google Chrome</h5>
+                    <p>Google Chrome is a web browser developed by Google</p>
+                </article>
+            </main>
+            .The main tag specifies the main content of a document.
+    </p>
+    <hr width="90%">
+
+    <p>
+        map=>image mapping:  <br>
+            <img src="./imagesandmp4/image2.jpeg" usemap="#image-map" >
+            <map name="image-map">
+                <area target="_self" alt="finger" title="finger" href="image.html" coords="262,107,147,5" shape="rect">
+                <area target="" alt="" title="" href="" coords="100,160,11,109" shape="rect">
+                <area target="" alt="" title="" href="" coords="75,31,34" shape="circle">
+                <!-- The rel attribute specifies the relationship between the current document and the linked document. -->
+                <area target="" alt="" title="" href="" coords="75,31,34" shape="circle" rel="suma">
+            </map>
+            <br><br>
+            .The area tag defines an area inside an image map (an image map is an image with clickable areas).      <br>
+            .The map tag is used to define an image map. An image map is an image with clickable areas.       <br>
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        mark=>marked text:         <br>
+             Do not forget to buy <mark>milk</mark> today.        <br>
+             .The mark tag defines text that should be marked or highlighted.
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        marquee=>marquee display:             <br>
+
+            <marquee width="60%" direction="up" height="100px">
+                 This is a sample scrolling text that has scrolls in the upper direction.
+            </marquee>
+            <hr>
+            <marquee width="60%" direction="down" height="100px">
+                This is a sample scrolling text that has scrolls texts to down.
+            </marquee>
+            <hr>
+            <marquee width="60%" direction="right" height="100px">
+                This is a sample scrolling text that has scrolls texts to the right.
+            </marquee>
+            <hr>
+            <marquee width="60%" direction="left" height="100px">
+                This is a sample scrolling text that has scrolls texts to the left.
+            </marquee>
+            <hr>
+            <marquee behavior="scroll" direction="up" scrollamount="1">Slow Scrolling</marquee>
+            <marquee behavior="scroll" direction="right" scrollamount="2">Little Fast Scrolling</marquee>
+            <marquee behavior="scroll" direction="left" scrollamount="3">Fast Scrolling</marquee>
+            <marquee behavior="scroll" direction="right" scrollamount="43">Very Fast Scrolling</marquee>
+            <hr>
+            .Marquee is one of the important tags introduced in HTML to support such scrollable texts and images within a web page.
+    </p>
+    <hr width="90%">
+
+    <p>
+        menu=>menu:
+            <menu>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </menu>
+            .The menu tag defines an unordered list of content.
+    </p>
+    <hr width="90%">
+
+    <p>
+        meta=>meta information:
+            1.The meta tag defines metadata about an HTML document. Metadata is data (information) about data.
+            2.meta tags always go inside the head element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+            3.There is a method to let web designers take control over the viewport (the user's visible area of a web page), through the meta tag (See "Setting The Viewport" example below).
+
+            <!--
+            <meta charset="UTF-8">
+            The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world!    <br>
+
+            Define keywords for search engines:
+            <meta name="keywords" content="HTML, CSS, JavaScript">
+
+            Define a description of your web page:
+            <meta name="description" content="Free Web tutorials for HTML and CSS">
+
+            Define the author of a page:
+            <meta name="author" content="John Doe">
+
+            Refresh document every 30 seconds:
+            <meta http-equiv="refresh" content="30">
+
+            Setting the viewport to make your website look good on all devices:
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            -->
+    </p>
+    <hr width="90%">
+
+    <p>
+        meter:
+         <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+         .The meter tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge.
+    </p>
+    <hr width="90%">
+
+    <p>
+        nav=>navigation:
+        <nav>
+            <a href="/html/">HTML</a> |
+            <a href="/css/">CSS</a> |
+            <a href="/js/">JavaScript</a> |
+            <a href="/python/">Python</a>
+        </nav>
+        .The nav tag defines a set of navigation links.
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        noscript:                     <br>
+            <script>document.write("Hello World!")</script>          <br>
+            <noscript>Sorry, your browser does not support JavaScript!</noscript>          <br>
+            .The noscript tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.
+    </p>
+    <hr width="90%">
+
+    <p>
+        object:
+            <br><br>
+            <object data="./imagesandmp4/image2.jpeg" width="300" height="200"></object>
+            <br><br>
+            <object data="./html.html" width="500" height="200"></object>
+            <br><br>
+            <object data="./Lokiverse Bgm Ringtone two point o_2023_11_6_10_35_30_099.mp3" width="300" height="400"></object>           <br>
+            
+            .The object tag defines a container for an external resource.
+            .The external resource can be a web page, a picture, a media player, or a plug-in application.
+    </p>
+    <hr width="90%">
+
+    <p>
+        ol=>ordered list:
+            <ol reversed>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+            <ol start="50">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+            <ol type="I">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+            .The ol tag defines an ordered list. An ordered list can be numerical or alphabetical.
+    </p>
+    <hr width="90%">
+
+    <p>
+        optgroup:      <br>
+            <select id="college">
+                <optgroup label="IT">
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="AI&DS">AI&DS</option>
+                </optgroup>
+                <optgroup label="non IT">
+                <option value="ECE" selected>ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="Mech">Mech</option>
+                <option value="Civil" disabled>Civil</option>
+                </optgroup>
+            </select>
+            <br>
+            .The optgroup tag is used to group related options in a select element (drop-down list). <br>
+            .The option tag defines an option in a select list.
+            .The select element is used to create a drop-down list.
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        output:
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="range" id="a" value="50">
+                +<input type="number" id="b" value="25">
+                =<output name="x" for="ab"></output>
+            </form>
+            .The output tag is used to represent the result of a calculation (like one performed by a script).
+    </p>
+    <hr width="90%">
+    
+
+    <p>
+        p=>paragraph:
+             <p>This is some text in a paragraph.</p>
+             <p>Lorem </p>
+             .The p tag defines a paragraph.
+    </p>
+    <hr width="90%">
+    
+    <p>
+        param:
+        <!-- <object data="./Lokiverse Bgm Ringtone two point o_2023_11_16_10_35_30_099.mp3">
+            <param name="autoplay" value="true">
+          </object> -->
+    </p>
+    <hr width="90%">
+
+    <p>
+        <!-- <picture></picture> -->
+    </p>
+    <hr width="90%">
+
+    <p>
+        pre=>preformatted:  <br>
+            <pre>
+                LJ,
+                CEO OF TED Talks,
+                Net worth 10c.. .. 
+            </pre>
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        progress:                <br>
+            <label for="file">Downloading progress:</label>        
+            <progress id="file" value="32" max="100"> 32% </progress>    <br>
+            .The progress tag represents the completion progress of a task. <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        q=>quotation:         <br>
+            <h5> <q>time is gold</q></h5>
+    </p>
+    <hr width="90%">
+
+    <p>
+           ruby:        <br><br>
+            <ruby>
+                GFG
+                <rt>GeeksforGeeks</rt>
+            </ruby> 
+            <br>
+            .The ruby tag in HTML is used to specify the ruby annotation which is a small text, attached with the main text to specify the meaning of the main text.     <br>
+            .This kind of annotation is used in Japanese publications  <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        s:
+            <p><s>Only 50 tickets left!</s></p>
+            <p>SOLD OUT!</p>
+            .The s tag specifies text that is no longer correct, accurate or relevant. The text will be displayed with a line through it.
+    </p>
+    <hr width="90%">
+
+    <p>
+        samp:
+            <p>Message from my computer:</p>
+            <p><samp>File not found.<br>Press F1 to continue</samp></p>
+            .The samp tag is used to define sample output from a computer program.   <br>  
+            .The content inside is displayed in the browser's default monospace font.  <br>
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        search: <br>
+            <search>
+                <input name="fsrch" id="fsrch" placeholder="Search W3Schools">
+            </search>
+            <br>
+            .The search tag is used to specify that here comes a set of elements that is related to search.  <br>
+            .The search element does not render as anything special in a browser. However, you can use CSS to style the search element and its content.  <br>
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        section:
+            <section>
+                <h1>WWF</h1>
+                <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding</p>
+            </section>
+            <section>
+                <h1>WWF</h1>
+                <p>The Panda has become the symbol of WWF</p>
+            </section>
+            .The section tag defines a section in a document.
+            .is mainly use developement side to read code with uniform 
+    </p>
+    <hr width="90%">
+
+
+
+    <p>
+        small:
+            <p>This is some normal text.</p>
+            <p><small>This is some smaller text.</small></p>
+            .The small tag defines smaller text (like copyright and other side-comments).
+    </p>
+    <hr width="90%">
+
+    <p>
+        span:
+             <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+             .The span tag is an inline container used to mark up a part of a text, or a part of a document. <br>
+             .The span tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. <br>
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        strong:  <br>
+            <strong>This text is important!</strong>         <br>
+            .The strong tag is used to define text with strong importance. The content inside is typically displayed in bold.     <br>
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        style:
+            <h1 style="color: yellowgreen;"> HELLO!</h1>
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        sub&sup:
+            <p>This text contains <sub>subscript</sub> text.</p>
+            <p>This text contains <sup>superscript</sup> text.</p>
+            .the sup tag to define superscripted text.   <br>
+            .the sub tag to define subscript text    <br>
+    </p>
+    <hr width="90%">
+
+
+
+    <p>
+        SUMMARY:
+            <details>
+                <summary>Epcot Center</summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            .The summary tag defines a visible heading for the details element.  <br>
+            .The heading can be clicked to view/hide the details.      <br>
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        table:
+            <table>
+                <tr>
+                <th>Month</th>
+                <th>Savings</th>
+                </tr>
+                <tr>
+                <td>January</td>
+                <td>$100</td>
+                </tr>
+            </table>
+            .The table tag defines an HTML table.   <br>
+            .An HTML table consists of one table element and one or more tr, th, and td elements.  <br>
+            .The tr element defines a table row, the th element defines a table header, and the td element defines a table cell. <br>
+    </p>
+    <hr width="90%">
+
+    <p>
+        thead,tbody,tfoot:
+            <table>
+                <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td>Sum</td>
+                    <td>$180</td>
+                </tr>
+                </tfoot>
+            </table>
+            .The tbody tag is used to group the body content in an HTML table.         <br>
+            .The tbody element is used in conjunction with the thead and tfoot elements to specify each part of a table (body, header, footer).  <br>
+    </p>
+    <hr width="90%">
+
+
+
+    <p>
+        textarea:             <br>
+            <label for="w3review">Review of W3Schools:</label><br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>  <br>
+            .The textarea tag defines a multi-line text input control.
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        time:
+            <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+            <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+            .The time tag defines a specific time (or datetime).
+            .The datetime attribute of this element is used translate the time into a machine-readable format so that browsers can offer to add date reminders through the user's calendar, and search engines can produce smarter search results.
+    </p>
+    <hr width="90%">
+
+
+
+    <p>
+        u:
+             <p>This is some <u>mispeled</u> text.</p>
+             .The u tag represents some text that is unarticulated and styled differently from normal text, such as misspelled words or proper names in Chinese text
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        var:          <br>
+
+            where <var>b</var> is the base, and <var>h</var> is the vertical height.
+            
+    </p>
+    <hr width="90%">
+
+
+
+    <p>
+        wbr:  <br>
+          To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.     <br>
+          .The wbr (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        Entities:                <br>
+        < (less than) = &lt;     <br>
+        > (greather than) = &gt; <br>
+        copyright      = &#169;	&#128517;<br>
+        I will display &#65; &#66; &#67;
+    </p>
+    <hr width="90%">
+
+
+
+    <p>
+        video: <br>
+            <!-- <video width="320" height="240" >
+                <source src="WhatsApp Video 2024-03-03 at 22.22.54_780089c1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <video width="320" height="240" controls>
+                <source src="WhatsApp Video 2024-03-03 at 22.22.54_780089c1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <video width="320" height="240"  autoplay controls>
+                <source src="WhatsApp Video 2024-03-03 at 22.22.54_780089c1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <video width="320" height="240"  autoplay muted controls loop> 
+                <source src="WhatsApp Video 2024-03-03 at 22.22.54_780089c1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> -->
+    </p>
+    <hr width="90%">
+
+
+
+    <p>
+        audio: <br>
+        <!-- <audio controls>
+            <source src="./Lokiverse Bgm Ringtone two point o_2023_11_16_10_35_30_099.mp3">   
+        </audio>
+        <audio controls autoplay>
+            <source src="./Lokiverse Bgm Ringtone two point o_2023_11_16_10_35_30_099.mp3">   
+        </audio>
+        <audio controls autoplay muted>
+            <source src="./Lokiverse Bgm Ringtone two point o_2023_11_16_10_35_30_099.mp3">   
+        </audio>
+        <audio controls autoplay muted loop>
+            <source src="./Lokiverse Bgm Ringtone two point o_2023_11_16_10_35_30_099.mp3">   
+        </audio> -->
+    </p>
+    <hr width="90%">
+
+
+    <p>
+        iframe:
+        <br>
+        <!-- <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></iframe>
+        <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+        <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe> -->
+    </p>
+    <hr width="90%">
+    
+    <p>
+        picture:
+        <picture>
+            <source media="(min-width: 650px)" srcset="./imagesandmp4/image.jpeg">
+            <source media="(min-width: 465px)" srcset="./imagesandmp4/image.jpeg">
+            <img src="./imagesandmp4/image3.jpeg">
+        </picture>
+    </p>
+    <hr width="90%">
+
+    <p>
+        Block and Inline Elements:                     <br>
+            .A block-level element always starts on a new line:  <br>
+            <!--<address>
+                <article>
+                <aside>
+                <blockquote>
+                <canvas>
+                <dd>
+                <div>
+                <dl>
+                <dt>
+                <fieldset>
+                <figcaption>
+                <figure>
+                <footer>
+                <form>
+                <h1>-<h6>
+                <header>
+                <hr>
+                <li>
+                <main>
+                <nav>
+                <noscript>
+                <ol>
+                <p>
+                <pre>
+                <section>
+                <table>
+                <tfoot>
+                <ul>
+                <video>
+            -->
+            .An inline element does not start on a new line.
+            <!--
+                <a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>
+            -->
+
+
+    </p>
+
+
+    <p>
+        <h1>Attribute:</h1>
+
+        <h3>1.accept</h3>
+            <input type="file" accept="image/*"><br>
+            accept Specifies the types of files like image/*,video/*,audio/* <br>
+        
+        <h3>2.alt</h3>
+            <img src="./imagesandmp4/image1.jpe" alt="all is well"> <br>
+            Specifies an alternate text when the original element fails to display <br>
+
+        <h3>3.checked</h3>
+            <input type="radio" checked> <br>
+            The checked attribute is a boolean attribute.
+        
+        <h3>4.cols&rows</h3>
+             <textarea rows="4" cols="50">Text....</textarea>
+
+        <h3>5.content</h3>
+            <head>
+                <meta name="description" content="Free Web tutorials">
+                <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+            </head>
+            .The content attribute gives the value associated with the http-equiv or name attribute.  <br>
+        
+        <h3>6.controls</h3>
+              Specifies that audio/video controls should be displayed (such as a play/pause button etc) <br>
+        
+        <h3>7.data</h3>
+            <object width="100" height="100" data="./submit.gif"></object>
+
+        <h3>8.dir</h3>
+            <p dir="rtl">Write this text right-to-left</p><br>
+            <p dir="ltr">Write this text right-to-left</p><br>
+        
+        <h3>9.disabled</h3>
+            <input type="text" disabled>  <br>
+            Specifies that the specified element/group of elements should be disabled
+        
+        <h3>10.download</h3>
+            <a href="./submit.gif" download=""><img src="./submit.gif" alt="img"></a>
+        
+        <h3>11.draggable</h3>
+           <p draggable="true">This is a draggable paragraph.</p>  <br>
+           .The draggable attribute specifies whether an element is draggable or not.
+        
+        
+        <h3>12.enterkeyhint</h3>
+            <input type="text" enterkeyhint="search">  <br>
+            <img src="./imagesandmp4/img_enterkeyhint_search.jpg" alt="search" width="170px" height="200px"> <br>
+            <input type="text" enterkeyhint="go">  <br>
+            <img src="./imagesandmp4/img_enterkeyhint_go.jpg" alt="search" width="170px" height="200px">
+            .The enterkeyhint attribute allows you to change the appearance of the keyboard on a phone or tablet (any device with a virtual keyboard).
+        
+        <h3>13.hidden</h3>
+            <p hidden>This paragraph should be hidden.</p>
+            <p>This is a visible paragraph.</p>
+        
+        <h3>14.inputmode</h3>
+            <input type="text" inputmode="numeric"><br>
+            <img src="./imagesandmp4/img_inputmode_numeric.jpg" alt="num" width="170px" height="200px"> <br>
+            <input type="text" inputmode="email"><br>
+            <img src="./imagesandmp4/img_inputmode_email.jpg" alt="email" width="170px" height="200px"> <br>
+        
+        <h3>15.open</h3>
+            <details open>
+                <summary>Copyright 1999-2014.</summary>
+                <p> - by Refsnes Data. All Rights Reserved.</p>
+                <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+            </details>
+        
+        <h3>16.pattern</h3>
+            <form >
+                Country code: 
+                <input type="text" name="country_code"
+                pattern="[A-Za-z]{3}" title="Three letter country code">
+                <input type="submit">
+            </form>
+
+        <h3>17.placeholder</h3>
+            <input type="text" placeholder="Exter your query">
+
+        
+        <h3>19.style</h3>
+            <h1 style="background-color: blue;">Hello World(using colour)</h1>  
+
+            <!--rgb(red, green, blue);-->
+            <h1 style="background-color: rgb(125, 125, 222);">Hello World(using rgb)</h1> 
+
+            <!--
+                rgba(red, green, blue, alpha)
+                The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)
+            -->
+            <h1 style="background-color: rgba(125, 125, 222,0.4);">Hello World(using rgba)</h1> 
+
+            <!-- color can be specified using a hexadecimal value in the form:-->
+            <h1 style="background-color: #ffa500;">Hello World(using rgb)</h1> 
+
+        <h3>20.background-color</h3>
+            <h3 style="background-image: url('./imagesandmp4/image2.jpeg');">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </h3>
+        <h3>
+            <style>
+                body {
+                background-image: url('./imagesandmp4/pexels-moose-photos-1037993.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+                }
+            </style>
+        </h3>
+
+
+    </p>
+
+
+
+<!-- 
+<script>
+    function light(sw) {
+    var pic;
+    if (sw == 0) 
+    {
+        pic = "pic_bulboff.gif"
+    } 
+    else 
+    {
+        pic = "pic_bulbon.gif"
+    }
+    document.getElementById('myImage').src = pic;
+    }
+</script>
+
+<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+<p>
+    <button type="button" onclick="light(1)">Light On</button>
+    <button type="button" onclick="light(0)">Light Off</button>
+</p>
+
+
+
+
+
+     -->
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
